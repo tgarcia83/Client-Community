@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:600,600i,700,700i&display=swap');
 
-/* Hide nav on portal*/
+/* Hide nav on portal */
 .comm-page-home .themeNav,
 .comm-page-home .themeUtils {
     display: none;
@@ -8,7 +8,7 @@
 
 @media only screen and (min-width: 48em) {
     .comm-page-home .forceCommunityThemeHeaderCompact .themeLogo {
-        margin-left: 100px;
+        margin-right: 0px;
     }
 }
 
@@ -145,7 +145,7 @@ body a.slds-button_brand:active,
 body a.slds-button_brand:visited {
     border-radius: 2rem;
     font-weight: 600;
-    /*text-transform: uppercase;*/
+    text-transform: uppercase;
     background-color: #0DB14B;
     padding: 0.675rem 1.25rem;
     line-height: 1;
@@ -1023,4 +1023,11 @@ div.forceCommunityTopArticleListForTopic {
 
 div.slds-col--padded.comm-content-header.comm-layout-column {
     height: auto;
+}
+@media only screen and (max-width: 30em) {
+    .forceTopicFeaturedTopicItem.topicItem{width:100% !important;}
+}
+@media only screen and (min-aspect-ratio: 4/3) and (min-width: 48em),
+only screen and (min-width: 64.0625em) {
+    lightning-combobox.center.slds-form-element.forceCommunityLanguageSelector43{width: 15%; margin-left: 66%;}
 }
