@@ -1,0 +1,1026 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:600,600i,700,700i&display=swap');
+
+/* Hide nav on portal */
+.comm-page-home .themeNav,
+.comm-page-home .themeUtils {
+    display: none;
+}
+
+@media only screen and (min-width: 48em) {
+    .comm-page-home .forceCommunityThemeHeaderCompact .themeLogo {
+        margin-right: 0px;
+    }
+}
+
+.comm-page-home .forceCommunityThemeHeaderCompact .themeLogo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+/* Hide My Account Menu Item for Everyone*/
+.myAccount.uiMenuItem,
+article.content .slds-section:nth-child(2),
+article.content .slds-section:nth-child(3),
+article.summary .article-type,
+article.summary .dot {
+    display: none;
+}
+
+.slds-form-element_readonly { border-bottom: none; }
+
+body,
+body .siteforceThemeLayoutStarter,
+body .forceTopicSubTopicNavigation .topic-subNavList {
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  line-height: 1.25 !important;
+}
+
+body h1 {
+  font-size: 32px !important;
+  font-weight: 300 !important;
+}
+
+.forceCommunityThemeHeroBase .contentCaption {
+  font-size: 26px !important;
+  font-weight: 400 !important;
+}
+
+body h2 {
+  font-size: 26px !important;
+  font-weight: 400 !important;
+}
+
+.forceCommunityThemeHeroBase .contentTitle {
+  margin-top: 0 !important;
+  font-size: 20px !important;
+}
+
+body h3 {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}
+
+body h4,
+body .slds-text-heading--small {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}
+
+body h5 {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+
+body h6 {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+
+body p {
+  line-height: 1.5 !important;
+  font-size: 16px !important;
+  margin-bottom: 1rem;
+}
+
+body small,
+body p.small,
+body .slds-text-body_small,
+body .slds-text-body--small {
+   font-size: 14px !important;
+}
+
+/* Links and Buttons */
+body a,
+body .forceCommunityTopArticleListForTopic .topicHeaderLink,
+body .selfServiceArticleListItem .article-head {
+  text-decoration: none;
+  color: #2D67C5;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+body button {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+body a:hover,
+body a:active,
+body a:focus,
+body .forceCommunityTopArticleListForTopic .topicHeaderLink:hover,
+body .forceCommunityTopArticleItem .article-title-link:hover {
+  color: #193F7A;
+  text-decoration: underline;
+}
+
+body .selfServiceArticleListItem .article-head:hover {
+  color: #193F7A !important;
+}
+
+/* Buttons */
+body .salesforceIdentityLoginForm2 .uiButton {
+    border-radius: 2rem;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Primary */
+body a.slds-button_brand,
+body a.slds-button_brand:active,
+body a.slds-button_brand:visited {
+    border-radius: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #0DB14B;
+    padding: 0.675rem 1.25rem;
+    line-height: 1;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    text-shadow: none;
+    border: none;
+    color: #fff;
+}
+
+body a.slds-button_brand:hover,
+body a.slds-button_brand:focus {
+    background-color: #07632A;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Secondary */
+body a.slds-button_outline-brand,
+body a.slds-button_outline-brand:active,
+body a.slds-button_outline-brand:visited {
+    border-color: #2D67C5;
+    border: 2px solid #2D67C5;
+    color: #2D67C5;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    background-color: transparent;
+	padding: 0.675rem 1.25rem;
+    line-height: 1;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+body a.slds-button_outline-brand:hover,
+body a.slds-button_outline-brand:focus {
+	background-color: #2D67C5;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Components */
+/* Forms */
+.slds-input {
+    color: #0D2242;
+    background-color: #FCFCFC;
+    font-weight: 400;
+    border-color: #DADFE6;
+    border-radius: .25rem;
+    padding-top: calc(.5rem + 1px);
+    padding-bottom: calc(.5rem + 1px);
+    -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+
+/* Non-English Login*/
+body .slds-col--padded  {
+    background-color: rgb(245, 247, 250);
+}
+
+/* Login */
+body .salesforceIdentityLoginBody2 .cCenterPanel,
+body.comm-page-error .forceCommunityContactSupportForm {
+    border-radius: 0.375rem;
+    background-color: #fff;
+    padding: 1rem 1.25rem 0;
+    -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,0.07), 0 15px 35px 0 rgba(49,105,193,0.10);
+  	box-shadow: 0 5px 15px 0 rgba(0,0,0,0.07), 0 15px 35px 0 rgba(49,105,193,0.10);
+}
+
+body .salesforceIdentityCommunityLogo2 .communityLogo {
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+body .salesforceIdentityLoginForm2 .inputContainer {
+    border-color: #DADFE6;
+    border-radius: .25rem;
+    color: #0D2242;
+    background-color: #FCFCFC;
+    font-weight: 400;
+}
+
+body .salesforceIdentityLoginBody2 .inputBox {
+    color: #0D2242;
+    font-weight: 400;
+}
+
+body .salesforceIdentityLoginLoginForm2 div span a.inverseTextColor {
+    text-align: center !important;
+}
+
+body .salesforceIdentityEmployeeLoginLink2.employeeLoginLink a.inverseTextColor,
+body .salesforceIdentityLoginForm2 .inverseTextColor {
+    color: #2d67c5;
+    font-weight: 600;
+}
+
+body .salesforceIdentityEmployeeLoginLink2.employeeLoginLink a.inverseTextColor:hover,
+body .salesforceIdentityLoginForm2 .inverseTextColor:hover {
+	color: #112B54;
+}
+
+body .salesforceIdentityEmployeeLoginLink2 {
+    background-color: #fcfcfc;
+    border-top: 1px solid #dadfe6;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    padding-top: 1rem;
+}
+
+/* Header Nav */
+body .forceCommunityThemeNav .mainNavItem {
+    padding-right: 0.25rem;
+    line-height: 32px !important;
+}
+
+body .forceCommunityThemeNav .mainNavItem .linkBtn {
+    text-transform: uppercase;
+    border-radius: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+body .forceCommunityThemeNav .mainNavItem .linkBtn:hover {
+    background-color: #193F7A;
+}
+
+body .forceCommunityThemeNav .comm-navigation__top-level-item-link--active {
+    border-bottom: none !important;
+    background-color: #193F7A;
+}
+
+body .forceCommunityThemeNav .comm-navigation__top-level-item.mainNavItem:first-child {
+    visibility: hidden;
+}
+
+body .forceCommunityThemeNav .uiMenuList .uiMenuItem>a,
+body .forceCommunityThemeProfileMenu .profile-menuItem.uiMenuItem>a {
+    padding: 0.25rem 1rem;
+}
+
+body .forceCommunityThemeNav .uiMenuList {
+    width: 260px;
+}
+
+body .navigationMenuNode:first-child { 
+  display: none;
+}
+
+
+
+
+/* Layout */
+/* Home Layout Overrides */
+.slds-col--padded.comm-content-header.comm-layout-column {
+
+}
+
+
+
+body.comm-page-home .forceTopicFeaturedTopics {
+  margin-top: 0;
+}
+
+body.comm-page-home .slds-col--padded.contentRegion.comm-layout-column {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+body.comm-page-home .slds-col--padded.comm-content-footer.comm-layout-column {
+  display: none;
+}
+
+
+
+/* Add the gradient to the hero */
+.forceCommunityThemeHeroBase .bgImage {
+  background: rgb(25,63,122) !important;
+  background: -moz-linear-gradient(-45deg,  rgba(25,63,122,1) 0%, rgba(13,34,66,1) 100%) !important;
+  background: -webkit-linear-gradient(-45deg,  rgba(25,63,122,1) 0%,rgba(13,34,66,1) 100%) !important;
+  background: linear-gradient(135deg,  rgba(25,63,122,1) 0%,rgba(13,34,66,1) 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#193f7a', endColorstr='#0d2242',GradientType=1 ) !important;
+}
+
+body .siteforceContentArea .comm-layout-column:not(:empty) {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+body .siteforceContentArea .comm-content-footer:not(:empty) {
+    padding-bottom: 0;
+}
+
+body.comm-page-home .siteforceContentArea .slds-wrap {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+body .siteforceContentArea .comm-layout-column:empty {
+    display: none;
+}
+
+.cta-container {
+    background-color: #E1E6ED;
+    border-top: 1px solid #CCD3DF;
+    padding: 2rem;
+    text-align: center;
+    width: 100vw;
+    margin-left: calc(((100vw - 100%) / 2) * -1);
+}
+
+.cta-container--body {
+    display: inline-flex;
+    align-items: center;
+}
+
+.cta-container--body h3 {
+    margin-right: 1rem;
+}
+
+body .footer div[data-region-name="themeFooter"] {
+    padding: 0.75rem;
+    background-color: #0D2242;
+    color: #DADFE6;
+}
+
+/*Hyperlink in the Embedded Chat widget*/
+body .embeddedServiceSidebar.modalContainer a {
+    color: #0000EE !important;
+}
+
+/*Hyperlinks in the footer*/
+/*body .forceCommunityRichText a {
+    color: #DADFE6;
+}
+
+body .forceCommunityRichText a:hover {
+    color: #ffffff;
+}
+*/
+body .footer div[data-region-name="themeFooter"] a {
+    color: #DADFE6;
+}
+
+body .footer div[data-region-name="themeFooter"] a:hover {
+    color: #ffffff;
+}
+
+/* Comm Header - White bar with breadcrumbs */
+.comm-content-header {
+    background-color: #fff;
+    width: 100vw;
+    margin-left: calc(((100vw - 100%) / 2) * -1);
+    /*margin-bottom: 2rem;*/
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.06);
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.06);
+}
+
+.comm-content-header .siteforceDesignTimeRegion,
+.comm-content-header div.ui-widget {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0.5rem 0;
+}
+
+/* Lighting Components */
+body .selfServiceArticleTopicList .slds-pill:hover {
+    background-color: #F5F7FA;
+}
+
+body .selfServiceSimilarArticles42 li a,
+body .selfServiceSimilarArticles42 li div {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+body .selfServiceSimilarArticles42 li a,
+body .selfServiceTopicTrendingArticles42 .slds-grid--vertical a {
+    color: #2D67C5;
+    font-weight: 400;
+}
+
+body .selfServiceSimilarArticles42 li a:hover,
+body .selfServiceTopicTrendingArticles42 .slds-grid--vertical a:hover,
+body .forceCommunityRelatedTopics .forceTopicTopicList .topicItemLink:hover {
+    color: #193F7A;
+}
+
+body .forceCommunityRelatedTopics .forceTopicTopicList .topicItemLink {
+    font-size: 14px;
+}
+
+body .slds-card__header {
+    padding: 1.25rem 1.25rem 0;
+}
+
+body .slds-card__body {
+    padding: 0 1.25rem 1.25rem;
+}
+
+.comm-page-home .forceCommunityTopArticleList,
+.comm-page-custom-avetta-training .forceCommunityTopArticleList {
+    padding: 1.25rem;
+    background-color: white;
+    border: 1px solid rgb(218, 223, 230);
+    border-radius: .25rem;
+}
+
+/* Featured Topics */
+body .forceTopicFeaturedTopics {
+    width: 100vw;
+    margin-left: calc(((100vw - 100%) / 2) * -1);
+    padding: 5rem 0;
+    background-color: #EDF0F5;
+}
+
+body.comm-page-home .forceTopicFeaturedTopics,
+body.comm-page-custom-client .forceTopicFeaturedTopics,
+body.comm-page-custom-supplier .forceTopicFeaturedTopics {
+  padding: 0 0 5rem;
+}
+
+body .forceTopicFeaturedTopicItem .topicLink {
+    position: relative;
+    display: contents;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body .forceTopicFeaturedTopicItem .topicContent {
+    position: initial;
+    /*left: 135px;*/
+    top: 5%;
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+}
+
+body .forceTopicFeaturedTopics .featuredTopicHeader {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto 1rem;
+    text-align: center;
+}
+
+body .forceTopicFeaturedTopics .topicList {
+    width: 100%;
+    max-width: 1280px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+body .forceTopicFeaturedTopics .topicLabel {
+    min-width: min-content;
+    align-self: center;
+    color: #2d67c5;
+    text-transform: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    display: contents;
+}
+
+body .forceTopicFeaturedTopicItem .topicImage { 
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: -100px;
+    width: 100%;
+    height: 100%
+	z-index 1
+}
+
+
+body .homeFunnel .forceTopicFeaturedTopicItem .topicContent {
+    position: initial;
+   /* left: 135px; */ 
+    top: 0;
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+}
+
+body .homeFunnel.forceTopicFeaturedTopics .topicList {
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.forceCommunityRichText .homeFunnel li:not(.ql-direction-rtl):before {
+  margin: 0;
+}
+.forceCommunityRichText .homeFunnel li:before {
+  display: none;
+}
+
+@media only screen and (min-aspect-ratio: 4/3) and (min-width: 48em),
+only screen and (min-width: 64.0625em) {
+body  .homeFunnel .forceTopicFeaturedTopicItem.topicItem {
+      width: 33.33333333333333%;
+  }
+
+body .homeFunnel .forceTopicFeaturedTopicItem.topicItem:first-child {
+    margin-left: 16.665%;
+  }
+}
+
+.homeFunnel .forceTopicFeaturedTopicItem.topicItem {
+    position: relative;
+    padding: 1px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.homeFunnel .forceTopicFeaturedTopicItem .topicLink {
+    position: initial;
+    display: contents;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body .homeFunnel .forceTopicFeaturedTopics .topicContent {
+    background-color: transparent;
+}
+
+body .homeFunnel .forceTopicFeaturedTopicItem .topicContent {
+    position: initial;
+    /* left: 135px; */
+    top: 0;
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+}
+
+.homeFunnel .topicDescription {
+    color: #0D2242;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    z-index: 1;
+    display: block;
+    position: absolute;
+    bottom: 8%;
+    width: 90% !important;
+    margin: 0 auto;
+    left: 5%;
+    padding-top: 5rem;
+    text-align: center;
+    align-self: center;
+}
+
+
+body .forceTopicFeaturedTopicItem .topicLabel,
+body .homeFunnel .forceTopicFeaturedTopicItem .topicLabel {
+    vertical-align: bottom;
+}
+
+body .forceTopicFeaturedTopicItem .topicImage,
+body .homeFunnel .forceTopicFeaturedTopicItem .topicImage {
+    position: relative;
+    z-index: 500;
+}
+
+.homeFunnel .forceTopicFeaturedTopicItem .topicImage {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+
+body .homeFunnel .topicLabel {
+  background-color: transparent;
+   display: block;
+    margin-top: 10px;
+}
+
+.homeFunnel .topicDescription {
+    color: #0D2242;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    z-index: 1;
+    display: block;
+    position: static;
+    bottom: 16%;
+    width: 90% !important;
+    left: 5%;
+    padding-top: 0;
+    text-align: center;
+    align-self: center;
+    min-width: min-content;
+    align-self: center;
+    text-transform: none;
+}
+
+.homeFunnel .topicLabel {
+  font-weight: 700;
+}
+
+.homeFunnel
+
+.homeFunnel.forceTopicFeaturedTopics .topicContent {
+    display: flex;
+    justify-content: center;
+    transition: background .8s ease;
+}
+
+.homeFunnel .forceTopicFeaturedTopicItem .topicContent {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+}
+
+.homeFunnel .topicLabel {
+  text-align: center;
+  align-self: center;
+}
+
+body.comm-page-home .forceTopicFeaturedTopicItem.topicItem,
+body.comm-page-custom-client .forceTopicFeaturedTopicItem.topicItem,
+body.comm-page-custom-supplier .forceTopicFeaturedTopicItem.topicItem {
+    height: 360px !important;
+    padding: 15px;
+}
+
+.homeFunnel.forceTopicFeaturedTopics .topicItem a,
+.forceTopicFeaturedTopics .topicItem a {
+  border-radius: 6px !important;
+  background: #fff;
+  border: 1px solid #DADFE6;
+  -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,0.05), 0 10px 21px 0 rgba(49,105,193,0.07);
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.05), 0 10px 21px 0 rgba(49,105,193,0.07);
+    display: block;
+}
+
+.homeFunnel.forceTopicFeaturedTopics .topicItem a:hover,
+.forceTopicFeaturedTopics .topicItem a:hover {
+  /* background: #F5F7FA; */
+  -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,0.08), 0 10px 21px 0 rgba(49,105,193,0.15);
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.08), 0 10px 21px 0 rgba(49,105,193,0.15);
+  border-color: #2D67C5;
+    text-decoration: none;
+}
+
+/* Topic Catalog */
+body .forceCommunityTopicCatalog .topicHierarchy-top {
+    text-transform: uppercase;
+    color: #112B54;
+}
+
+body .forceCommunityTopicCatalog .topicHierarchy-topBox {
+    border-top-width: 1px;
+}
+
+/* Topic Lists */
+body .forceCommunityHeadline .headlineTitle,
+body .forceTopicSubTopicNavigation .topic-subNavContainer {
+    text-align: left;
+}
+
+body.comm-page-home .forceCommunityHeadline .headlineTitle,
+body.comm-page-custom-client .forceCommunityHeadline .headlineTitle,
+body.comm-page-custom-supplier .forceCommunityHeadline .headlineTitle {
+  text-align: center;
+  color: #012A66;
+  font-weight: 600 !important;
+}
+
+body.comm-page-home .forceCommunityHeadline .headlineInfo,
+body.comm-page-custom-client .forceCommunityHeadline .headlineInfo,
+body.comm-page-custom-supplier .forceCommunityHeadline .headlineInfo {
+  color: #0D2242;
+  margin: 0;
+}
+
+body .listTab.uiTabset--base.uiTabset--default.uiTabset.forceCommunityResultsList {
+    background-color: transparent;
+}
+
+body .forceCommunityResultsList .uiTabBar {
+    display: none;
+}
+
+body .selfServiceArticleListItem {
+    border-radius: .375rem;
+    -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,.07), 0 5px 35px 0 rgba(49,105,193,.1);
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.07), 0 5px 35px 0 rgba(49,105,193,.1);
+    border: 2px solid #fff;
+    padding: calc(1.5rem - 4px);
+    margin-bottom: 0.75rem !important;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+body .selfServiceTopicArticleList .selfServiceArticleListItem:first-child {
+    border: 2px solid #fff;
+}
+
+body .selfServiceArticleListItem:hover,
+body .selfServiceTopicArticleList .selfServiceArticleListItem:first-child:hover {
+    border: 2px solid #2D67C5;
+    -webkit-box-shadow: 0 2px 10px 0 rgba(45,103,197,.1), 0 5px 35px 0 rgba(45,103,197,.16);
+    box-shadow: 0 2px 10px 0 rgba(45,103,197,.1), 0 5px 35px 0 rgba(45,103,197,.16);
+}
+
+/* Article Lists */
+body .forceCommunityTopArticleItem .article-title-link {
+    color: #2D67C5;
+    font-weight: 400;
+}
+
+body .forceCommunityTopArticleItem .article-title,
+body .forceCommunityTopicCatalog .topicHierarchy-grandChild {
+    font-size: 16px;
+}
+
+body .forceCommunityTopicCatalog .topicHierarchy-grandChild {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Typography */
+body .selfServiceArticleLayout.zoom .article-head {
+    font-size: inherit;
+}
+
+/* Article Details */
+body.comm-page-article article.summary .selfServiceArticleHeaderDetail.meta,
+body.comm-page-article .selfServiceArticleLayout .article-head {
+    margin-bottom: 0px;
+}
+
+body.comm-page-article .selfServiceArticleLayout .article-summary {
+    margin-top: 0;
+}
+
+body.comm-page-article article.content .full div.slds-section:first-child {
+    display: none;
+}
+
+body.comm-page-article article.content .slds-section .test-id__field-label-container {
+    display: none;
+}
+
+body.comm-page-article .selfServiceArticleLayout.zoom.article-column {
+    padding: 0;
+}
+
+.comm-page-article article.content .forcePageBlockItemView .slds-form-element_separator.is-read-only {
+    margin-right: 0;
+}
+
+article.voting {
+    width: 100vw;
+    margin-left: calc(((100vw - 100%) / 2) * -1);
+    padding: 1rem 0;
+    border-top: 1px solid #DADFE6;
+    border-bottom: 1px solid #DADFE6;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+article.slds-card.forceKnowledgeArticleThumbVote {
+    max-width: 45%;
+    margin: 0 auto;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+/* Article Details Type Scale */
+/* Adjusting the typography and spacing for contents only */
+.comm-page-article article.content {
+    font-size: 18px;
+}
+
+.comm-page-article article.content h1,
+.comm-page-article article.content h2,
+.comm-page-article article.content h3,
+.comm-page-article article.content h4 {
+    margin-top: 1.2em;
+}
+
+.comm-page-article article.content h1 {
+    font-size: 42px !important;
+    font-weight: 600 !important;
+}
+
+.comm-page-article article.content h2 {
+    font-size: 32px !important;
+    font-weight: 600 !important;
+}
+
+.comm-page-article article.content h3 {
+    font-size: 24px !important;
+    font-weight: 600 !important;
+}
+
+.comm-page-article article.content h4 {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+}
+
+.comm-page-article article.content ol,
+.comm-page-article article.content ul {
+    margin-top: 0.75rem;
+}
+
+.comm-page-article article.content li {
+    margin-bottom: 0.25rem;
+    line-height: 1.75;
+}
+
+/* Training Page */
+body.comm-page-custom-avetta-training .slds-wrap {
+    height: calc(100vh - 144px - 176px);
+    padding: 2rem 0;
+}
+
+/* Error Page */
+body.comm-page-error .siteforceThemeLayoutStarter .body.isPageWidthFixed-true {
+    background-image: url(https://avetta--c.na64.content.force.com/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Jpg&versionId=0680g000004kwLp&operationContext=CHATTER&contentId=05T0g00000DLe8n);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: none;
+    width: 100% !important;
+    height: calc(100vh - 144px);
+}
+
+body.comm-page-error .siteforceThemeLayoutStarter .body.isPageWidthFixed-true .siteforceContentArea {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+body.comm-page-error .slds-wrap {
+    align-items: center;
+    height: calc(100vh - 164px);
+}
+
+body.comm-page-error .forceCommunityRichText {
+    color: #fff;
+}
+
+body.comm-page-error .forceCommunityRichText h1 {
+    font-weight: 700 !important;
+    font-size: 100px !important;
+    line-height: 1.25 !important;
+}
+
+body.comm-page-error .forceCommunityRichText p {
+    font-size: 18px !important;
+}
+
+body.comm-page-error .forceCommunityContactSupportForm {
+	padding: 1.25rem 2rem 2rem;
+    text-align: left !important;
+}
+
+/* Contact Support */
+body.comm-page-contactsupport .forceCommunityContactSupportForm h1,
+body.comm-page-contactsupport .forceCommunityContactSupportForm .slds-p-top--small span {
+    text-align: left !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: block;
+}
+
+body.comm-page-contactsupport .forceCommunityCaseDeflection h1,
+body.comm-page-contactsupport .forceCommunityCaseDeflection .header-message span {
+    text-align: left !important;
+    display: block;
+}
+
+body.comm-page-contactsupport .slds-grid_align-center.slds-p-bottom--x-small {
+    text-align: left;
+    justify-content: start;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+
+div .slds-col--padded.comm-content-header.comm-layout-column {
+    padding-bottom: 0;
+    padding-top: 0;
+    height: 0;
+}
+
+
+
+div.slds-col--padded.comm-content-header.comm-layout-column {
+    -webkit-box-shadow: 0 0 0 0 rgba(0,0,0,0);
+    box-shadow: 0 0 0 0;
+}
+
+div.slds-media.slds-no-space.slds-grow {
+    visibility: hidden;
+}
+
+button.slds-button.slds-button_icon.slds-button_icon-more {
+    visibility: hidden;
+}
+
+span.countSortedByFilteredBy {
+    visibility: hidden;
+}
+
+button.slds-button.slds-button_icon-border-filled {
+    visibility: hidden;
+}
+
+button.slds-button.slds-button_icon.slds-button_icon-border-filled {
+    visibility: hidden;
+}
+
+lightning-button-icon-stateful.listViewManagerHeaderButton.filterButton {
+    visibility: hidden;
+}
+
+p.slds-text-body--small {
+    visibility: hidden;
+}
+
+.slds-col slds-has-flexi-truncate firstHeaderRow {
+    height: 0;
+}
+
+div.slds-col.slds-no-flex.slds-grid.slds-align-top.slds-p-bottom--xx-small.test-lvmForceActionsContainer {
+    height: 0;
+}
+
+div.slds-col.slds-has-flexi-truncate.firstHeaderRow {
+    height: 0;
+}
+
+div.slds-page-header--object-home.slds-page-header_joined.slds-page-header_bleed.slds-page-header.slds-shrink-none.test-headerRegion.forceListViewManagerHeader {
+    padding-top: 0;
+}
+
+div.body.isPageWidthFixed-true {
+    min-height: 90vh;
+}
+
+div.forceTopicFeaturedTopics {
+    background-color: transparent;
+}
+
+div.slds-grid.slds-wrap.slds-nowrap--large {
+    top: 200px;
+}
+
+div.forceCommunityTopArticleListForTopic {
+    width: inherit !important
+}
+
+div.slds-col--padded.comm-content-header.comm-layout-column {
+    height: auto;
+}
