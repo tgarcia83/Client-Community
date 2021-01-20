@@ -1024,3 +1024,10 @@ div.forceCommunityTopArticleListForTopic {
 div.slds-col--padded.comm-content-header.comm-layout-column {
     height: auto;
 }
+@media only screen and (max-width: 30em) {
+    .forceTopicFeaturedTopicItem.topicItem{width:100% !important;}
+}
+@media only screen and (min-aspect-ratio: 4/3) and (min-width: 48em),
+only screen and (min-width: 64.0625em) {
+    lightning-combobox.center.slds-form-element.forceCommunityLanguageSelector43{width: 15%; margin-left: 66%;}
+}
